@@ -19,4 +19,4 @@ Below is a breakdown of the structure:
 
 | Sprint | Name | Topics | Stack | 
 | :---------------------- | :---------------------- | :---------------------- | :---------------------- |
-| [Sprint2](Sprint2) | Basic SQL | JOIN, Subqueries | MySQL, MySQL Workbench |
+| [Sprint2](sprint2) | Basic SQL | JOIN, Subqueries | MySQL, MySQL Workbench |
