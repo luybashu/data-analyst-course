@@ -1,7 +1,7 @@
 USE transactions;
 
 -- Level 1. 
--- Exercise 1 (using JOIN).
+-- Exercise 2 (using JOIN).
 -- Countries that make purchases.
 SELECT DISTINCT c.country
 FROM company as c
@@ -12,13 +12,14 @@ SELECT count(DISTINCT c.country)
 FROM company as c
 JOIN transaction as t ON t.company_id = c.id;
 
--- The company with the highest average sales.
-SELECT c.company_name, AVG(t.amount) as average_sales
+-- Company with the highest average sales.
+SELECT c.company_name, round(AVG(t.amount),2) as average_sales
 FROM company as c
 JOIN transaction as t ON t.company_id = c.id
+WHERE t.declined = 0
 GROUP BY c.company_name
 ORDER BY average_sales DESC
-LIMIT 5;
+LIMIT 1;
 
 -- Exercise 3 (subqueries without using JOIN).
 -- All transactions made by companies in Germany.
@@ -41,20 +42,19 @@ WHERE id NOT IN (SELECT DISTINCT company_id from transaction);
 -- Date of each transaction along with the total sales
 select date(timestamp) as date, sum(amount) as total_sales
 from transaction
-where declined < 1
+where declined = 0
 group by date(timestamp)
 order by total_sales desc
 limit 5;
-
-
  
 -- Exercise 2. Average sales per country. 
 -- Results are sorted from highest to lowest average sale.
-select c.country, AVG(t.amount) as avg_sales
+select c.country, round(AVG(t.amount), 2) as average_sales
 from transaction as t 
 join company as c on t.company_id=c.id
+where t.declined = 0
 group by c.country
-order by avg_sales desc;
+order by average_sales desc;
 
 -- Excercise 3. Transactions carried out by companies that are located in the same country as "Non Institute" company.
 -- Using subqueries
@@ -63,13 +63,17 @@ from transaction
 where company_id IN (
 select id
 from company
-where country = (select country from company where company_name = 'Non Institute'));
+where country = (select country from company where company_name = 'Non Institute') 
+and company_name != 'Non Institute')
+order by id;
 
 -- Using JOIN and subqueries
 select t.*
 from transaction as t
 join company as c on t.company_id=c.id
-where country = (select country from company where company_name = 'Non Institute');
+where country = (select country from company where company_name = 'Non Institute')
+and company_name != 'Non Institute'
+order by id;
 
 -- Level 3.
 -- Exercise 1. Companies (name, telephone, country, date and amount) that made transactions with a value between 100 and 200 euros 
