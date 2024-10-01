@@ -22,5 +22,6 @@ Below is a breakdown of the structure:
 | Sprint | Name | Topics | Stack | 
 | :---------------------- | :---------------------- | :---------------------- | :---------------------- |
 | [Sprint2](sprint2) | Basic SQL | JOIN, Subqueries | MySQL, MySQL Workbench |
+| [Sprint3](sprint3) | Table Management | Table modifications, Index, View | MySQL, MySQL Workbench |
 
 
