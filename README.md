@@ -25,5 +25,7 @@ Below is a breakdown of the structure:
 | [Sprint3](sprint3) | Table Management | Table modifications, Index, View | MySQL, MySQL Workbench |
 | [Sprint4](sprint4) | Data Modeling | Types of tables, Star and Snowflake Schemas, data load | MySQL, MySQL Workbench |
 | [Sprint5](sprint5) | Power BI: Introduction and indicators | Data loading, exploration, transformation and filtering. Creation of KPIs. Use of DAX | Power BI |
+| [Sprint6](sprint6) | Power BI: Visualizations and Reports | Desining interactive reports, different types of visualizations. Use of DAX | Power BI |
+| [Sprint7](sprint7) | Introduction to Python | Basic notions, control structures, data types | Python |
 
 
