@@ -27,6 +27,7 @@ Below is a breakdown of the structure:
 | [Sprint5](sprint5) | Power BI: Introduction and indicators | Data loading, exploration, transformation and filtering. Creation of KPIs. Use of DAX | Power BI |
 | [Sprint6](sprint6) | Power BI: Visualizations and Reports | Desining interactive reports, different types of visualizations. Use of DAX | Power BI |
 | [Sprint7](sprint7) | Introduction to Python | Basic notions, control structures, data types | Python |
-| [Sprint8.1](sprint8.1) | Introduction to Python | Basic notions, control structures, data types | Python |
+| [Sprint8.1](sprint8/sprint8.1) | Visualizations in Python | Python connection to MySQL Workbench, visualizations of categorical and numerical variables | Pandas, Matplotlib, Seaborn |
+| [Sprint8.2](sprint8/sprint8.2) | Integrating Python and Power BI | Power BI connection to Python, visualizations with the Seaborn and Matplotlib libraries in Power BI report | Pandas, Matplotlib, Seaborn, Power BI |
 
 
