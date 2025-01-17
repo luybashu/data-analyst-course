@@ -9,4 +9,5 @@ Follow these steps:
 MYSQL_USER=yourMySQLusername
 MYSQL_PASSWORD=yourMySQLpassword
 HOST=127.0.0.1
+```
 3. Save the file as `.env`.
