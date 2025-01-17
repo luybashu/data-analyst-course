@@ -1,10 +1,12 @@
 ## Setting Up the `.env` File
 
-Before running the project, you will need to create a `.env` file to provide your MySQL credentials. Follow these steps:
+Before running the project, you will need to create a `.env` file in the root of the project to provide your MySQL credentials.<br>
+Follow these steps:
 
-1. Copy the `.env.template` file to `.env`.
-2. Open the `.env` file and fill in the values:
-    - `MYSQL_USER`: Your MySQL username.
-    - `MYSQL_PASSWORD`: Your MySQL password.
-    - `HOST`: The host where your MySQL server is running (usually `127.0.0.1` for localhost).
-3. Save the `.env` file.
+1. Open any text editor (e.g., Notepad, VS Code, TextEdit).
+2. Add the necessary environment variables (e.g., MySQL credentials) in the following format:
+```plaintext
+MYSQL_USER=yourMySQLusername
+MYSQL_PASSWORD=yourMySQLpassword
+HOST=127.0.0.1
+3. Save the file as `.env`.
