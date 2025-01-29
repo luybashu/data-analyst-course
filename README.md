@@ -29,5 +29,6 @@ Below is a breakdown of the structure:
 | [Sprint7](sprint7) | Introduction to Python | Basic notions, control structures, data types | Python |
 | [Sprint8.1](sprint8/sprint8.1) | Visualizations in Python | Python connection to MySQL Workbench, visualizations of categorical and numerical variables | Pandas, Matplotlib, Seaborn |
 | [Sprint8.2](sprint8/sprint8.2) | Integrating Python and Power BI | Power BI connection to Python, visualizations with the Seaborn and Matplotlib libraries in Power BI report | Pandas, Matplotlib, Seaborn, Power BI |
+| [Sprint9](sprint9) | Non-Relational Databases | Types, Basic CRUD operations in MongoDB | MongoDB Compass |
 
 
