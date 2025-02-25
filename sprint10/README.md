@@ -18,5 +18,5 @@ Daily rainfall data for Navarcles from 1995 to 2024.
 Daily rainfall, temperature (min/max), and insolation data for Manresa from 1950 to 2023.
 
 ## Presentation:
-- `rainfall_navarcles_project.pptx`<br>
+- `rainfall_navarcles_project.pdf`<br>
 PowerPoint presentation summarizing the project.
