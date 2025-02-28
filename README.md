@@ -10,7 +10,7 @@ The **Data Analyst** course covers a range of topics, including:
 - **SQL & Databases**: Querying, managing, and analyzing data stored in databases
 - **Business Intelligence & Visualization**: Creating interactive dashboards and reports using Power BI
 - **Python for Data Analysis**: Using Python libraries such as Pandas, Numpy, and Matplotlib for data manipulation and visualization
-- 
+- **Non-Relational Databases & MongoDB**: Querying and analyzing data stored in non-relational databases
 ---
 
 ## Repository Structure
